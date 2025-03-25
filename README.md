@@ -26,12 +26,12 @@ fbrtdb = FirebaseRTDB(FIREBASE_URL)
 
 ### Write to Firebase Realtime Database
 
-The write function takes 2 arguments:
+The write function takes two arguments:
 
 * path: which is a URI-based path
 * data: which takes a dictionary (and can be nested as shown in the example below)
 
-```
+```python
 fbrtdb.write(path="path/to/object", data={"sensors" : {"temperature": 25, "humidity": 60}})
 ```
 
@@ -49,7 +49,7 @@ If a path is specified that does not exist, the return value is None.
 
 ### Update in Firebase Realtime Database
 
-The update function takes 2 arguments:
+The update function takes two arguments:
 
 * path: which is a URI-based path
 * data: which takes a dictionary
