@@ -1,6 +1,6 @@
 # Firebase Realtime Database with MicroPython
 
-This projects provides a MicroPython library for using Google Firebase Realtime Database. At the moment we omit the authentication part so make sure access to your Realtime database is set up properly. This library is free of use and may contain additional features in the future.
+This project provides a MicroPython library for using Google Firebase Realtime Database. At the moment we omit the authentication part so make sure access to your Realtime database is set up properly. You should only use this library in a hobby project, not in production environments. This library is free of use and may contain additional features in the future.
 
 ## Structure of this repo
 
