@@ -5,6 +5,12 @@ This project provides a MicroPython library for using Google Firebase Realtime D
 ## Structure of this repo
 
 If you want to use the library, you need to upload the [firebasertdb.py](firebasertdb.py) file to your microcontroller.
+Using mip, you can also install this on the board (make sure to first enable the Wifi connection)
+
+```python
+import mip
+mip.install("github:mslembro/firebase-realtime-db-upython")
+```
 
 ```python
 import firebasertdb
